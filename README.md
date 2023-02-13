@@ -1,1 +1,1 @@
-# sis-triks
+# sis-tricks
