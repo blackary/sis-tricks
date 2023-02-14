@@ -1,7 +1,7 @@
 version: '3'
 vars:
   HOME_PAGE: "streamlit_app.py"
-  APP_NAME: "my_sis_app"
+  APP_NAME: "MY_APP"
   MAIN_BRANCH: "main"
   USERNAME:
     sh: whoami
