@@ -5,7 +5,7 @@ This is one way to enable version control and version-based deployment of SiS ap
 The workflow is the following, using https://taskfile.dev/ to generate a set of standard
 commands for deploying, dropping and updating your app.
 
-Run `task --list` to get the full list of commands you can run.
+You'll need to copy and customize the Taskfile.yml in this folder to make these examples work for you. Run `task --list` to get the full list of commands you can run with this Taskfile.
 
 This requires you to do some initial setup with
 https://github.com/Snowflake-Labs/snowcli, which is beyond the scope of this README.
