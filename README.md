@@ -1,6 +1,6 @@
 # ❄️🎈 sis-tricks 🎈❄️
 
-<strong>A repo with the Streamlit Data Team's hacks for using Streamlit in Snowflake</strong>
+**A repo with the Streamlit Data Team's hacks for using Streamlit in Snowflake**
 
 ## Usage:
 
