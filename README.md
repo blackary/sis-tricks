@@ -12,5 +12,8 @@ Each folder in this repo contains a new hack for running a data science team usi
 
 ### [Version Control Deployment](https://github.com/blackary/sis-tricks/tree/main/deploy-branches)
 
+### [Importing from Folder](https://github.com/blackary/sis-tricks/tree/main/import-from-folder)
+
 ## Help:
+
 If you have issues with any of these, or want to get into the SiS PrPr, please reach out to your Snowflake representative.
