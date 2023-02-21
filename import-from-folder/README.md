@@ -7,7 +7,7 @@ won't work -- you can't just `put` a whole folder to the stage and then import f
 Instead, you can create a zip folder, put _that_ to the stage, and then import from
 that zip directly.
 
-1. Create an app with the code from streamlit_app.py
+1. Create an app with the code from streamlit_app.py. Note the important step of adding `utils.zip` to `sys.path`
 2. Put several python modules in the `utils` folder, or another similar
 3. Zip the utils folder
 
