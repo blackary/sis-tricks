@@ -1,7 +1,7 @@
 # Multi-File Apps
 
-Multi-file apps actually work natively in SiS, though it is not possible today to
-see or edit anything but the main file.
+Multi-file apps can be made to work in SiS, though it is not possible today to
+see or edit anything but the main file through the web UI.
 
 ## Steps to make this work
 
