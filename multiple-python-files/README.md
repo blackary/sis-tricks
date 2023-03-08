@@ -9,6 +9,15 @@ see or edit anything but the main file.
 
    In this case, `streamlit run streamlit_app.py` should run the function imported from file2.py
 
+   Note that you must do the following before you import from the other file
+
+   ```python
+   import sys
+   sys.path.append(".")
+   ```
+
+   After this, imports should work locally and on SiS.
+
 2. Create the streamlit in SiS either through the snowcli or through the browser
 
    Through the snowcli, you can do
