@@ -21,6 +21,8 @@ SIS_FAQ = "https://docs.google.com/document/d/1XY0wPp5tJQHivkzkcxYKjwKiW8-rreHsU
 
 # TODO: st.markdown should also warn when using unsafe html
 # TODO: warn for custom components
+# TODO: warn for components API
+# TODO: st.info for cache_data and cache_resource? Since they won't crash but just won't work
 
 UNSUPPORTED_STREAMLIT_FEATURES = [
     file_uploader,
