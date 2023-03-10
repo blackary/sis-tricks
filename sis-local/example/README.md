@@ -18,10 +18,13 @@ minimal example of a conda setup using `environment.yml`. Read more in the
 [SiS docs](https://docs.snowflake.com/en/LIMITEDACCESS/streamlit-in-snowflake#installing-packages-manually).
 
 ```sh
+# One time setup on your machine
 brew install --cask miniconda # If not already installed
 conda config --set auto_activate_base false
 conda config --add channels snowflake
-conda init --all # See conda docs on how to manage this
+conda init --all # See conda docs on what this does / how to use it
+
+# Per app
 conda env create -f environment.yml
 conda activate sis-example
 # Install streamlit_in_snowflake and run the example app as above
