@@ -19,7 +19,7 @@ pip install "streamlit_in_snowflake @ git+https://github.com/sfc-gh-jcarroll/sis
 ```
 
 In general, we recommend managing your environment with Conda,
-as it will transition easily to the SiS environment. However, this package is not yet available in the channel,
+as it will transition easily to the SiS environment. However, this package is not yet available in the [Snowflake Anaconda channel](https://repo.anaconda.com/pkgs/snowflake/),
 so it may be useful to install separately once your conda environment is setup.
 
 See the example directory for a minimal conda setup. Read more in the
