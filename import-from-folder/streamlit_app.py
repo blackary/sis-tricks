@@ -1,6 +1,6 @@
 import sys
 
-sys.path.append("utilt.zip")
+sys.path.append("utils.zip")
 
 # If the folder 'utils' exists, then this will import from that folder. Otherwise
 # it will import from the zip file.
