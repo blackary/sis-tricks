@@ -2,7 +2,7 @@ from snowflake.snowpark.context import get_active_session
 from snowflake.snowpark.exceptions import SnowparkSessionException
 
 
-def in_snowpark() -> bool:
+def running_in_sis() -> bool:
     try:
         sess = get_active_session()
         return True
@@ -10,12 +10,13 @@ def in_snowpark() -> bool:
         return False
 
 
-if in_snowpark():
+if running_in_sis():
     import streamlit as st
     session = get_active_session()
 else:
     import streamlit_in_snowflake as st
-    session = st.LocalSnowparkConnection().connect()
+    from streamlit_in_snowflake.local_session import get_local_session
+    session = get_local_session()
 
 
 st.title("Hello, world!")
