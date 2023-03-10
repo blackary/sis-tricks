@@ -1,8 +1,8 @@
 # Example usage of streamlit_in_snowflake
 
 1. Create a secrets.toml file in this repo, as described in the parent directory README
-1. Create and activate a python 3.8 virtual environment
-1. Run the following
+2. Create and activate a python 3.8 virtual environment
+3. Run the following
 
 ```shell
 pip install -r requirements.txt
