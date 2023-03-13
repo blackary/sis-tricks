@@ -1,1 +1,0 @@
-streamlit_in_snowflake @ git+https://github.com/sfc-gh-jcarroll/sis-tricks.git@sis-local#subdirectory=sis-local
