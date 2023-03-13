@@ -5,7 +5,7 @@
 3. Run the following
 
 ```shell
-pip install "streamlit_in_snowflake @ git+https://github.com/sfc-gh-jcarroll/sis-tricks.git@sis-local#subdirectory=sis-local"
+pip install "streamlit_in_snowflake @ git+https://github.com/blackary/sis-tricks.git#subdirectory=sis-local"
 python -m streamlit run sis_app.py
 ```
 

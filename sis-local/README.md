@@ -15,7 +15,7 @@ and provide a much smoother experience doing local development and porting to Si
 Just like Snowpark, **it requires python 3.8.**
 
 ```shell
-pip install "streamlit_in_snowflake @ git+https://github.com/sfc-gh-jcarroll/sis-tricks.git@sis-local#subdirectory=sis-local"
+pip install "streamlit_in_snowflake @ git+https://github.com/blackary/sis-tricks.git#subdirectory=sis-local"
 ```
 
 In general, we recommend managing your environment with Conda,
